@@ -2,8 +2,6 @@
 
 ## Todo 2: Write code for 5-fold cross validation
 
-## Todo 3: Secure inference using BFV (TenSeal)
+## Todo 3: Calculate ROC, AUC in run_encrypted_evaluate_CKKS.py and run_encrypted_evaluate_BFV.py
 
-## Todo 4: Secure inference using CKKS (TenSeal)
-
-## Todo 5: Secure inference using THFE (Concrete-ML)
+## Todo 4: save and load quantized model run_encrypted_evaluate_TFHE.py, split train file and evaluation file

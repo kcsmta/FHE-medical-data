@@ -24,9 +24,9 @@ except:
 # load data
 if problem == 'covid19':
     X, y = data_loader.COVID19_dataset('./Dataset/corona_tested_individuals_ver_006.english.csv')
-    model = neural_networks.Covid19_neural_network()
+    model = neural_networks.Covid19_tenseal_neural_network()
     BATCH_SIZE = 64
-    lossFunc = nn.MSELoss()
+    lossFunc = nn.CrossEntropyLoss()
     save_trained_model = './Models/covid19_model.pth'
 elif problem == 'breast_cancer':
     X, y = data_loader.WDBC_dataset('')

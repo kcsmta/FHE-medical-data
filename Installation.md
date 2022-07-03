@@ -53,3 +53,8 @@ $ pip install concrete-ml
 ```
 $ pip install -U skorch
 ```
+
+##
+```
+$ pip install pandas
+```
